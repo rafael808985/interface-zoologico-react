@@ -1,4 +1,5 @@
 import './Navegacao.css'
+import { Link } from 'react-router-dom';
 
 
 function Navegacao() {
@@ -11,11 +12,22 @@ function Navegacao() {
 
             <div className='navbar-opcoes'>
                 <ul>
-                    <li>Inicio</li>
-                    <li>Os animais</li>
-                    <li>Fotos</li>
-                    <li>Depoimentos</li>
-                    <li>Login</li>
+
+                    <li>
+                        <Link style={{color: "A7A000"}} to="/">INICIO</Link>
+                    </li>
+                    <li>
+                        <Link style={{color: "A7A000"}} to="/animais">OS ANIMAIS</Link>
+                    </li>
+                    <li>
+                        <Link style={{color: "A7A000"}} to="/fotos">FOTOS</Link>
+                    </li>
+                    <li>
+                        <Link style={{color: "A7A000"}} to="/depoimentos">DEPOIMENTOS</Link>
+                    </li>
+                    <li>
+                        <Link style={{color: "A7A000"}} to="/login">LOGIN</Link>
+                    </li>
                 </ul>
             </div>
 
