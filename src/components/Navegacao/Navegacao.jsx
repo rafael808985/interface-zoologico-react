@@ -14,10 +14,12 @@ function Navegacao() {
                 <ul>
 
                     <li>
+
+                        
                         <Link style={{color: "A7A000"}} to="/">INICIO</Link>
                     </li>
                     <li>
-                        <Link style={{color: "A7A000"}} to="/animais">OS ANIMAIS</Link>
+                        <Link style={{color: "A7A000"}} to="/animais">OS ANIMAIS</Link>                                                                                                                                                                                 
                     </li>
                     <li>
                         <Link style={{color: "A7A000"}} to="/fotos">FOTOS</Link>
